@@ -5,7 +5,245 @@
   <title>Task-5</title>
 </head>
 <body>
-<div id="app"></div>
+<div id="app">
+  <nav class="navbar navbar-light bg-white border-bottom sticky-top mb-5">
+    <div class="container">
+      <a class="navbar-brand mx-2" href="#">
+        Store
+      </a>
+      <div class="navbar">
+        <div class="container-fluid">
+          <a class="nav-link p-0" href="wishlist.html">
+            <button class="btn shadow-none cart-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart"
+                   viewBox="0 0 16 16">
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg>
+              <span class="badge bg-success mx-2 wishlist-counter">0</span>
+            </button>
+          </a>
+          <a class="nav-link p-0" href="cart.html">
+            <button class="btn shadow-none cart-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              <span class="badge bg-success mx-2 cart-counter">0</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/beanie.jpg" alt="beanie"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Beanie</h5>
+                <span>$</span><span>18.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/belt.jpg" alt="belt"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Belt</h5>
+                <span>$</span><span>55.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/cap.jpg" alt="cap"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Cap</h5>
+                <span>$</span><span>16.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/hoodie.jpg" alt="hoodie"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Hoodie</h5>
+                <span>$</span><span>42.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/hoodie-with-logo.jpg" alt="hoodie-with-logo"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Hoodie with Logo</h5>
+                <span>$</span><span>45.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/hoodie-with-pocket.jpg" alt="hoodie-with-pocket"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Hoodie with Pocket</h5>
+                <span>$</span><span>35.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/hoodie-with-zipper.jpg" alt="hoodie-with-zipper"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Hoodie with Zipper</h5>
+                <span>$</span><span>45.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/long-sleeve-tee.jpg" alt="long-sleeve-tee"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Long Sleeve Tee</h5>
+                <span>$</span><span>25.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/polo.jpg" alt="polo"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Polo</h5>
+                <span>$</span><span>20.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/sunglasses.jpg" alt="sunglasses"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Sunglasses</h5>
+                <span>$</span><span>90.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/tshirt.jpg" alt="tshirt"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Tshirt</h5>
+                <span>$</span><span>18.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/vneck-tee.jpg" alt="vneck-tee"/>
+            <div class="card-body p-4">
+              <div class="text-center">
+                <h5 class="fw-bolder">Vneck Tshirt</h5>
+                <span>$</span><span>18.00</span>
+              </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto pb-3">
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
+              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content ms-lg-4">
+        <span>© 2022</span>
+        <br>
+        <span>Designed by <a target="_blank" href="https://github.com/valnative">Valerii Yevdochenko</a></span>
+      </div>
+    </div>
+  </footer>
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>
