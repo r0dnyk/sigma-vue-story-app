@@ -1,0 +1,24 @@
+{
+  "name": "sigma-test-skills",
+  "version": "1.0.0",
+  "description": "Задача 5 Створити програму з використанням фреймворку Vue.js+MySQL з продажу товарів.",
+  "scripts": {
+    "build": "webpack --progress",
+    "dev": "webpack --watch"
+  },
+  "author": "Valerii Yevdochenko",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@vue/compiler-sfc": "^3.2.34",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "vue-loader": "^17.0.0",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
