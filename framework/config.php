@@ -1,0 +1,15 @@
+<?php
+
+define('APP_ROOT', dirname(__FILE__, 2));
+
+
+const APP_NAME = 'V-SHOP';
+const APP_CONTROLLERS = APP_ROOT . '/app/Controllers/';
+const APP_MODELS = APP_ROOT . '/app/Models/';
+const APP_VIEWS = APP_ROOT . '/views/';
+
+const DB_HOST = 'localhost';
+const DB_NAME = 'task5';
+const DB_USER = 'admin';
+const DB_PASS = '@secret@';
+const DB_DSN = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME;
