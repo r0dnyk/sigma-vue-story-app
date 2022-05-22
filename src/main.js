@@ -2,11 +2,11 @@ import { createApp } from 'vue'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import './styles.css'
 
-import Product from './components/Product'
+import ProductList from './components/ProductList'
 
 const app = createApp({})
 
-app.component('product', Product)
+app.component('product-list', ProductList)
 
 app.mount('#app')
 app.mount('#app-cart')
