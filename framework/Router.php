@@ -2,42 +2,27 @@
 
 namespace Framework;
 
-use App\Controllers\CatalogController;
-use App\Controllers\CartController;
-use App\Controllers\WishlistController;
-
-
 /**
- *
+ * Router
  */
 class Router
 {
     /**
-     * @return void
+     * @var array|mixed
      */
-    public static function run(): void
-    {
-        $uri = self::getUri();
-        $map = self::getRoutes();
-        self::getController($map, $uri);
-    }
+    protected array $routes;
 
     /**
-     * @return string[][]
+     * Constructor
      */
-    private static function getRoutes(): array
+    public function __construct()
     {
-        return array(
-            'catalog' => [CatalogController::class, 'catalog'],
-            'cart' => [CartController::class, 'cart'],
-            'wishlist' => [WishlistController::class, 'wishlist'],
-        );
+        $this->routes = include(ROUTES_PATH);
     }
 
     /**
      * @return string|null
      */
-
     private static function getUri(): ?string
     {
         if (!empty($_SERVER['REQUEST_URI'])) {
@@ -47,20 +32,21 @@ class Router
     }
 
     /**
-     * @param array $map
-     * @param string|null $uri
      * @return void
      */
-    private static function getController(array $map, ?string $uri): void
+    public function run(): void
     {
-        foreach ($map as $route => $controllers) {
+        $uri = self::getUri();
+        foreach ($this->routes as $route => $controllerSegments) {
             if (preg_match("~^$route$~", $uri)) {
-                $controllerName = array_shift($controllers);
-                $controllerAction = array_pop($controllers);
-                $controller = new $controllerName();
-                $controller->$controllerAction();
+                $controllerName = array_shift($controllerSegments);
+                $actionName = 'action' . ucfirst($route);
+                $controllerObject = new $controllerName();
+                $result = $controllerObject->$actionName();
+                if ($result !== null) {
+                    break;
+                }
             }
         }
     }
 }
-

@@ -12,5 +12,9 @@
       "name": "Valerii Yevdochenko",
       "email": "valerii.yevdochenko@gmail.com"
     }
-  ]
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "friendsofphp/php-cs-fixer": "^3.8"
+  }
 }

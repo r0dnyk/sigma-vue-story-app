@@ -2,11 +2,12 @@
 
 define('APP_ROOT', dirname(__FILE__, 2));
 
-
+;
 const APP_NAME = 'V-SHOP';
 const APP_CONTROLLERS = APP_ROOT . '/app/Controllers/';
 const APP_MODELS = APP_ROOT . '/app/Models/';
 const APP_VIEWS = APP_ROOT . '/views/';
+const ROUTES_PATH = APP_ROOT . '/framework/routes.php';
 
 const DB_HOST = 'localhost';
 const DB_NAME = 'task5';

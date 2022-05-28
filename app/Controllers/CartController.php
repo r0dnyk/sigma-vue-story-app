@@ -6,7 +6,7 @@ use Framework\View;
 
 class CartController extends Controller
 {
-    public function actionCatalog(): bool
+    public function actionCart(): bool
     {
 //        View::render('template.php', 'cart.php');
         echo "CartController => actionCart";
