@@ -1,11 +1,11 @@
 <nav class="navbar navbar-light bg-white border-bottom sticky-top mb-5">
   <div class="container">
-    <a class="navbar-brand mx-2" href="#">
+    <a class="navbar-brand mx-2" href="catalog">
       Store
     </a>
     <div class="navbar">
       <div class="container-fluid">
-        <a class="nav-link p-0" href="wishlist.php">
+        <a class="nav-link p-0" href="wishlist">
           <button class="btn shadow-none cart-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart"
                  viewBox="0 0 16 16">
@@ -15,7 +15,7 @@
             <span class="badge bg-success mx-2 wishlist-counter">0</span>
           </button>
         </a>
-        <a class="nav-link p-0" href="cart.php">
+        <a class="nav-link p-0" href="cart">
           <button class="btn shadow-none cart-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
               <path

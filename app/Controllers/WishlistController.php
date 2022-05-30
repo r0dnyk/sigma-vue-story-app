@@ -6,10 +6,8 @@ use Framework\View;
 
 class WishlistController extends Controller
 {
-    public function actionWishlist(): bool
+    public function actionWishlist(): void
     {
-//        View::render('template.php', 'wishlist.php');
-        echo "WishlistController => actionWishlist";
-        return true;
+        View::render('template.php', 'wishlist.php');
     }
 }

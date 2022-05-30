@@ -6,10 +6,8 @@ use Framework\View;
 
 class CatalogController extends Controller
 {
-    public function actionCatalog(): bool
+    public function actionCatalog(): void
     {
-//        View::render('template.php', 'catalog.php');
-        echo "CatalogController => actionCatalog";
-        return true;
+        View::render('template.php', 'catalog.php');
     }
 }

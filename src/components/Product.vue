@@ -9,8 +9,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -25,8 +25,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -41,8 +41,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -57,8 +57,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -73,8 +73,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -89,8 +89,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -105,8 +105,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -121,8 +121,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -137,8 +137,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -153,8 +153,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -169,8 +169,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
@@ -185,8 +185,8 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart.html">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist.html">Add to wishlist</a>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
         </div>
       </div>
     </div>
