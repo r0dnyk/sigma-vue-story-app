@@ -7,7 +7,7 @@ use Framework\View;
 class Controller
 {
     public View $view;
-//    public $model;
+    public $model;
 
     public function __construct()
     {
