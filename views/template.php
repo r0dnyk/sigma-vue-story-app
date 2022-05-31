@@ -9,7 +9,7 @@
 if (isset($content)) {
     require_once $content;
 }
-require_once 'footer.php' ?>
+?>
 </div>
 <script src="public/js/main.js"></script>
 </body>
