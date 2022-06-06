@@ -8,6 +8,7 @@ use Framework\Db;
 class ProductModel
 {
     public int $id;
+    public string $name;
     public float $price;
     public string $image;
 
@@ -29,6 +30,7 @@ class ProductModel
         return $catalog;
     }
 
+
     /**
      * @param $object
      * @param ProductModel $product
@@ -37,6 +39,7 @@ class ProductModel
     private function extracted($object, ProductModel $product): void
     {
         $product->id = $object->id;
+        $product->name = $object->name;
         $product->price = $object->price;
         $product->image = $object->image;
     }
