@@ -1,7 +1,7 @@
 <template>
   <div class="col mb-5">
     <div class="card h-100">
-      <img class="card-img-top" src="/img/beanie.jpg" alt="Beanie"/>
+      <img class="card-img-top" :src="image" :alt="name"/>
       <div class="card-body p-4">
         <div class="text-center">
           <h5 class="fw-bolder">{{ name }}</h5>
@@ -25,6 +25,7 @@ export default {
       type: String,
       isRequired: true,
     },
+    image: String,
     price: Number,
   },
 }
