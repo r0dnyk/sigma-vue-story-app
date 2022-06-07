@@ -14,11 +14,11 @@ class ProductModel
 
     /**
      * @return array
+     * @throws \JsonException
      */
     public function getCatalog(): array
     {
         $db = Db::getConnection();
-
         $catalog = [];
         $sql = 'SELECT * FROM product';
         $objectArray = $db->query($sql)->fetchAll(PDO::FETCH_CLASS, __CLASS__);

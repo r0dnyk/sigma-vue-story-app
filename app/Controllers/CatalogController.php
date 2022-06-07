@@ -14,10 +14,15 @@ class CatalogController extends Controller
     }
 
 
-    public function actionCatalog(): array
+    /**
+     * @throws \JsonException
+     */
+    public function actionCatalog(): void
     {
         $catalog = $this->model->getCatalog();
         View::render('template.php', 'catalog.php', $catalog);
-        return $catalog;
+        $fp = fopen(APP_FRAMEWORK . 'db.json', 'w');
+        fwrite($fp, json_encode($catalog, JSON_THROW_ON_ERROR));
+        fclose($fp);
     }
 }
