@@ -6,6 +6,11 @@
         <div class="text-center">
           <h5 class="fw-bolder">{{ name }}</h5>
           <span>$</span><span>{{ price }}</span>
+          <p class="mt-3">
+            Stock:
+            <strong v-if="count !== 0" class="text-success">Available</strong>
+            <strong v-else class="text-danger">Sold out</strong>
+          </p>
         </div>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
@@ -27,6 +32,7 @@ export default {
     },
     image: String,
     price: Number,
+    count: Number,
   },
 }
 </script>
