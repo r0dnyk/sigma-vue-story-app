@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ProductModel;
 use Framework\View;
+use JsonException;
 
 class CatalogController extends Controller
 {
@@ -15,7 +16,7 @@ class CatalogController extends Controller
 
 
     /**
-     * @throws \JsonException
+     * @throws JsonException
      */
     public function actionCatalog(): void
     {

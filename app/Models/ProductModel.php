@@ -10,11 +10,11 @@ class ProductModel
     public int $id;
     public string $name;
     public float $price;
+    public int $count;
     public string $image;
 
     /**
      * @return array
-     * @throws \JsonException
      */
     public function getCatalog(): array
     {
@@ -41,6 +41,7 @@ class ProductModel
         $product->id = $object->id;
         $product->name = $object->name;
         $product->price = $object->price;
+        $product->count = $object->count;
         $product->image = $object->image;
     }
 }
