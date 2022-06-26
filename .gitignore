@@ -2,3 +2,4 @@
 vendor
 node_modules/
 framework/db.json
+.php-cs-fixer.cache
