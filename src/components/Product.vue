@@ -1,7 +1,7 @@
 <template>
   <div class="col mb-5">
     <div class="card h-100">
-      <img class="card-img-top" :src="image" :alt="name"/>
+      <img class="card-img-top" :src="image" :alt="name">
       <div class="card-body p-4">
         <div class="text-center">
           <h5 class="fw-bolder">{{ name }}</h5>
@@ -13,13 +13,19 @@
           </p>
         </div>
       </div>
+
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cart">Add to cart</a></div>
-        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="wishlist">Add to wishlist</a>
-        </div>
+        <button :disabled="count === 0"
+                :class="`btn btn-${count !== 0 ? 'success' : 'secondary'} w-100 shadow-none`">
+          Add to cart
+        </button>
+        <button class="btn btn-warning w-100 shadow-none">
+          Add to wishlist
+        </button>
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
