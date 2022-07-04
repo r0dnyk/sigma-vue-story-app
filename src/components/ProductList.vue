@@ -23,7 +23,7 @@ export default {
   components: { Product },
 
   data: () => ({
-    products: json,
+    products: json.products,
   })
 }
 </script>

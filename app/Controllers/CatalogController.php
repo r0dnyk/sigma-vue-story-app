@@ -23,7 +23,10 @@ class CatalogController extends Controller
         $catalog = $this->model->getCatalog();
         View::render('template.php', 'catalog.php', $catalog);
         $fp = fopen(APP_FRAMEWORK . 'db.json', 'w');
+
+        fwrite($fp, '{ "products" :');
         fwrite($fp, json_encode($catalog, JSON_THROW_ON_ERROR));
+        fwrite($fp, '}');
         fclose($fp);
     }
 }
