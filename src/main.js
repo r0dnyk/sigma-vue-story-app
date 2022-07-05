@@ -9,5 +9,3 @@ const app = createApp({})
 app.component('product-list', ProductList)
 
 app.mount('#app')
-app.mount('#app-cart')
-app.mount('#app-wishlist')

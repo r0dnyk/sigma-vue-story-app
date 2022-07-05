@@ -4,7 +4,8 @@
   "description": "Задача 5 Створити програму з використанням фреймворку Vue.js+MySQL з продажу товарів.",
   "scripts": {
     "build": "webpack --progress",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "json-server": "json-server framework/db.json -w"
   },
   "author": "Valerii Yevdochenko",
   "license": "ISC",

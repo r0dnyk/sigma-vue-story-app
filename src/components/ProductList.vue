@@ -16,14 +16,23 @@
 
 <script>
 import Product from './Product'
-import json from '/framework/db.json'
 
 export default {
-  name: 'ProductList',
-  components: { Product },
-
+  name: "ProductList",
+  components: {Product},
   data: () => ({
-    products: json.products,
-  })
+    products: [],
+  }),
+
+  mounted() {
+    this.fetchProducts();
+  },
+
+  methods: {
+    async fetchProducts() {
+      const response = await fetch("http://localhost:3000/products");
+      this.products = await response.json();
+    }
+  }
 }
 </script>
