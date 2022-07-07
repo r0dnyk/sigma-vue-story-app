@@ -16,7 +16,9 @@
 
       <div class="d-grid gap-2 col-6 mx-auto pb-3">
         <button :disabled="count === 0"
-                :class="`btn btn-${count !== 0 ? 'success' : 'secondary'} w-100 shadow-none`">
+                :class="`btn btn-${count !== 0 ? 'success' : 'secondary'} w-100 shadow-none`"
+                @click="addToCart"
+        >
           Add to cart
         </button>
         <button class="btn btn-warning w-100 shadow-none">
@@ -32,6 +34,10 @@
 export default {
   name: 'Product',
   props: {
+    id: {
+      type: Number,
+      isRequired: true,
+    },
     name: {
       type: String,
       isRequired: true,
@@ -40,5 +46,16 @@ export default {
     price: Number,
     count: Number,
   },
+  methods: {
+    addToCart() {
+      this.$root.addProduct({
+        id: this.id,
+        name: this.name,
+        image: this.image,
+        price: this.price,
+        count: this.count,
+      })
+    }
+  }
 }
 </script>

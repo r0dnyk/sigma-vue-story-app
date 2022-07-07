@@ -4,12 +4,12 @@
       <product
           v-for="product in products"
           :key="product.id"
+          :id="product.id"
           :name="product.name"
           :price="product.price"
           :count="product.count"
           :image="product.image"
       ></product>
-
     </div>
   </div>
 </template>
@@ -30,8 +30,12 @@ export default {
 
   methods: {
     async fetchProducts() {
-      const response = await fetch("http://localhost:3000/products");
-      this.products = await response.json();
+      try {
+        const response = await fetch("http://localhost:3000/products");
+        this.products = await response.json();
+      } catch (e) {
+        console.error("Fetching error");
+      }
     }
   }
 }
