@@ -1,7 +1,7 @@
 {
-  "name": "sigma-test-skills",
+  "name": "vue3-edu-store",
   "version": "1.0.0",
-  "description": "Задача 5 Створити програму з використанням фреймворку Vue.js+MySQL з продажу товарів.",
+  "description": "Vue 3 Store app",
   "scripts": {
     "build": "webpack --progress",
     "dev": "webpack --watch",

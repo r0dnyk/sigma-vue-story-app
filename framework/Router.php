@@ -2,6 +2,8 @@
 
 namespace Framework;
 
+use App\Controllers\HomeController;
+
 /**
  * Router
  */
@@ -37,10 +39,15 @@ class Router
     public function run(): void
     {
         $uri = self::getUri();
+
         foreach ($this->routes as $route => $controllerSegments) {
             if (preg_match("~^$route$~", $uri)) {
                 $controllerName = array_shift($controllerSegments);
-                $actionName = 'action' . ucfirst($route);
+                if ($controllerName === HomeController::class) {
+                    $actionName = 'actionHome';
+                } else {
+                    $actionName = 'action' . ucfirst($route);
+                }
                 $controllerObject = new $controllerName();
                 $result = $controllerObject->$actionName();
                 if ($result !== null) {

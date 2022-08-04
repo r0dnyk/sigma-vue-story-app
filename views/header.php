@@ -1,7 +1,10 @@
 <nav class="navbar navbar-light bg-white border-bottom sticky-top mb-5">
   <div class="container">
-    <a class="navbar-brand mx-2" href="catalog">
+    <a class="navbar-brand mx-2" href="/">
       Store
+    </a>
+    <a class="navbar-brand mx-2" href="catalog">
+      Catalog
     </a>
     <div class="navbar">
       <div class="container-fluid">

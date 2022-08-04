@@ -20,7 +20,8 @@
           <tr>
             <td>
               <div class="d-flex ">
-                <img class="img-fluid rounded-1" src="public/img/hoodie-with-logo.jpg" width="96" alt="hoodie-with-logo">
+                <img class="img-fluid rounded-1" src="public/img/hoodie-with-logo.jpg" width="96"
+                     alt="hoodie-with-logo">
                 <p class="mx-2 mb-0 ">
                   Hoodie with logo
                 </p>
