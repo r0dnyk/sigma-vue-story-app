@@ -1,0 +1,23 @@
+{
+  "name": "valnative/sigma-test-skills",
+  "description": "Задача 5 Створити програму з використанням фреймворку Vue.js+MySQL з продажу товарів.",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Framework\\": "framework/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Valerii Yevdochenko",
+      "email": "valerii.yevdochenko@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "friendsofphp/php-cs-fixer": "^3.8"
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}

@@ -1,0 +1,33 @@
+@import "~bootstrap";
+
+body {
+  background-color: #edf2f9;
+}
+
+footer {
+  background-color: #f0f0f0;
+  color: #6d6d6d;
+  padding: 25px 0;
+}
+
+.footer a {
+  color: #2c2d33;
+  text-decoration: underline;
+}
+
+.cart-table thead {
+  background-color: #edf2f9;
+}
+
+.cart-table th {
+  border-bottom: none;
+}
+
+.table.cart-table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #dee2e6;
+}
+
+.table.cart-table tfoot td {
+  border-bottom: none;
+}
+
